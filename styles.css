@@ -1,0 +1,45 @@
+.colorpickerSection{  
+    position: absolute; /*  This following code will be used to center or middle section in the page */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.colorPicker{
+    text-align: center;
+    border: 3px solid black;
+}
+
+.colorpickerBody{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    /* border-top: 2px; */
+}
+
+.colorpickerButtons{
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button1{
+    background-color: #FF90BB;    
+}
+
+.button2{
+    background-color: #A2FF86;
+}
+
+.button3{
+    background-color: #FFF9C9;
+}
+
+.button4{
+    background-color: #78C1F3;
+}
+
+.backgroundColor{
+    margin-top: 10px;
+}

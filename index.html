@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Projects
+        </title>
+
+        <!-- Bootstrap CDN CSS Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <!-- Google Fonts connection link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts font link -->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+
+        <!-- Google Icons Link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+        <!-- Font Awesome Link  -->
+        <script src="https://kit.fontawesome.com/a376043953.js" crossorigin="anonymous"></script>
+
+         <!-- Bootstrap Icons link -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+         <!-- CSS Link -->
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+
+    <body class="bodyContainer" id="bodyContainer">
+
+        <div class="container ">
+
+            <div class="container-fluid">
+
+                <section class="colorpickerSection" id="colorpickerSection">
+
+                    <section class="card colorPicker" id="colorPicker">
+
+                        <h1 class="card-header"> Color Picker </h1>
+            
+                        <div class="card-body colorpickerBody" id="colorpickerBody" >
+            
+                            <button class="button1 colorpickerButtons" id="button1" onclick="onButton1()">#FF90BB</button>
+                            <button class="button2 colorpickerButtons" id="button2" onclick="onButton2()">#7895CB</button>
+                            <button class="button3 colorpickerButtons" id="button3" onclick="onButton3()">#9681EB</button>
+                            <button class="button4 colorpickerButtons" id="button4" onclick="onButton4()">#0B666A</button>
+
+                            <div class="backgroundColor">
+                                <p>Backgroud Color : <span id="backgroundcolorText">#000000</span></p>
+                            </div>
+            
+                        </div>
+
+                        <div class="card-footer" >
+                            <p>Try to click on button to change the background color</p>
+                        </div>
+
+                    </section>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <script src="index.js"></script>
+
+</html>
